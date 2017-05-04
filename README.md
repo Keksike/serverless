@@ -8,7 +8,7 @@
 [![dependencies](https://img.shields.io/david/serverless/serverless.svg)](https://www.npmjs.com/package/serverless)
 [![license](https://img.shields.io/npm/l/serverless.svg)](https://www.npmjs.com/package/serverless)
 
-[Website](http://www.serverless.com) • [Docs](https://serverless.com/framework/docs/) • [Newsletter](http://eepurl.com/b8dv4P) • [Gitter](https://gitter.im/serverless/serverless) • [Forum](http://forum.serverless.com) • [Meetups](https://github.com/serverless-meetups/main) • [Twitter](https://twitter.com/goserverless)
+[Website](http://www.serverless.com) • [Docs](https://serverless.com/framework/docs/) • [Newsletter](http://eepurl.com/b8dv4P) • [Gitter](https://gitter.im/serverless/serverless) • [Forum](http://forum.serverless.com) • [Meetups](https://github.com/serverless-meetups/main) • [Twitter](https://twitter.com/goserverless) • [We're Hiring](https://serverless.com/company/jobs/)
 
 **The Serverless Framework** – Build applications comprised of microservices that run in response to events, auto-scale for you, and only charge you when they run.  This lowers the total cost of maintaining your apps, enabling you to build more logic, faster.
 
@@ -142,7 +142,9 @@ The following are services you can instantly install and use by running `serverl
 
 ## <a name="v1-plugins"></a>Plugins (V1.0)
 
-Use these plugins to extend or overwrite the Framework's functionality...
+Use these plugins to extend or overwrite the Framework's functionality.
+
+[Add a plugin to this list](https://github.com/serverless/community-plugins/blob/master/plugins.json)
 
 <!-- AUTO-GENERATED-CONTENT:START (GENERATE_SERVERLESS_PLUGIN_TABLE)
 This table is generated from https://github.com/serverless/plugins/blob/master/plugins.json please make additions there
@@ -197,11 +199,10 @@ This table is generated from https://github.com/serverless/plugins/blob/master/p
 | **[Serverless Scriptable Plugin](https://github.com/weixu365/serverless-scriptable-plugin)** <br/> Customize Serverless behavior without writing a plugin. | [weixu365](http://github.com/weixu365) | 
 | **[Serverless Step Functions](https://github.com/horike37/serverless-step-functions)** <br/> AWS Step Functions with Serverless Framework. | [horike37](http://github.com/horike37) | 
 | **[Serverless Subscription Filter](https://github.com/blackevil245/serverless-subscription-filter)** <br/> Serverless plugin to register subscription filter for Lambda logs. Register and pipe the logs of one lambda to another to process. | [blackevil245](http://github.com/blackevil245) | 
+| **[Serverless Typescript](https://github.com/graphcool/serverless-plugin-typescript)** <br/> Serverless plugin for zero-config Typescript support. | [graphcool](http://github.com/graphcool) | 
 | **[Serverless Webpack](https://github.com/elastic-coders/serverless-webpack)** <br/> Serverless plugin to bundle your lambdas with Webpack | [elastic-coders](http://github.com/elastic-coders) | 
 | **[Serverless Wsgi](https://github.com/logandk/serverless-wsgi)** <br/> Serverless plugin to deploy WSGI applications (Flask/Django/Pyramid etc.) and bundle Python packages | [logandk](http://github.com/logandk) |
 <!-- AUTO-GENERATED-CONTENT:END This table is generated from https://github.com/serverless/plugins/blob/master/plugins.json please make additions there -->
-
-[Add a plugin to this list](https://github.com/serverless/community-plugins/blob/master/plugins.json)
 
 ## <a name="v1-projects"></a>Example Projects (V1.0)
 
