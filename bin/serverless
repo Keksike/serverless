@@ -9,7 +9,7 @@ BbPromise.config({
   longStackTraces: true,
 });
 
-process.on('unhandledRejection', (e) => logError(e));
+process.on('unhandledRejection', (e) => logError(getErrorObject(e)));
 process.noDeprecation = true;
 
 let serverless;
@@ -25,5 +25,5 @@ let serverless;
   return serverless.init().then(() => serverless.run());
 }).catch(e => {
   process.exitCode = 1;
-  logError(getErrorObject(e), serverless.processedInput.options.output);
+  logError(e, serverless.processedInput.options.output);
 }))();
